@@ -1,9 +1,11 @@
-h1 > img {
+svg {
   width: 200px;
+  height: 64px;
 }
 
 @media (min-width: 768px) {
-  h1 > img {
-    width: 100px;
+  svg {
+    width: 93px;
+    height: 32px;
   }
 }

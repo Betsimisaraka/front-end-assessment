@@ -1,6 +1,6 @@
 .mashead_article {
-  padding-top: 2rem;
-  padding-bottom: 0rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .mashead_article__heading {
@@ -13,4 +13,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
+}
+
+@media (min-width: 1350px) {
+  .mashead_article {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 }
