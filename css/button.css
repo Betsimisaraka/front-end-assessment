@@ -1,13 +1,5 @@
 .download_buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }
 
-button {
-  border: none;
-}
