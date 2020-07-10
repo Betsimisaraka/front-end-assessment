@@ -16,9 +16,10 @@ body {
   body {
     background-image: url(../img/mastheader.png);
     background-repeat: no-repeat;
-    background-size: 600px;
-    background-position: 110% 50%;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    background-size: 800px;
+    background-position: 120% 50%;
+    text-align: start;
+    padding-left: 163px;
+    padding-right: 750px;
   }
 }
