@@ -11,3 +11,14 @@ body {
    margin-left: 1rem;
    margin-right: 1rem;
 }
+
+@media (min-width: 1350px) {
+  body {
+    background-image: url(../img/mastheader.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 110% 50%;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
