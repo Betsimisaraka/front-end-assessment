@@ -1,10 +1,15 @@
-.masthead_heading {
+.mashead_article {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+}
+
+.mashead_article__heading {
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
 }
 
-.masthead_description {
+.mashead_article__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
