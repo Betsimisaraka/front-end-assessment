@@ -1,23 +1,37 @@
 .mashead_article {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .mashead_article__heading {
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #333333;
+  padding-bottom: 33px;
 }
 
 .mashead_article__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
+  color: #4F4F4F;
 }
 
 @media (min-width: 1350px) {
   .mashead_article {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 133px;
+    padding-bottom: 30px;
+  }
+  .mashead_article__heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .mashead_article__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
   }
 }
