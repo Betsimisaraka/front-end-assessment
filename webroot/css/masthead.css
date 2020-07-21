@@ -25,17 +25,16 @@
 @media (min-width: 1350px) {
   .mashead_article {
     padding-top: 133px;
-    padding-bottom: 56px;
+    padding-bottom: 50px;
   }
   .mashead_article__heading {
-    font-weight: 700;
     font-size: 36px;
     line-height: 48px;
     padding-bottom: 30px;
   }
   .mashead_article__description {
-    font-weight: 400;
     font-size: 18px;
     line-height: 26px;
+    max-width: 453px;
   }
 }

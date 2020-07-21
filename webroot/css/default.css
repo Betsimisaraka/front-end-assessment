@@ -15,11 +15,12 @@ body {
   body {
     background-image: url(../img/mastheader.png);
     background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: 121% 70%;
+    background-size: 70%;
+    background-position: 134% 54%;
     background-repeat: no-repeat;
     text-align: start;
-    padding-left: 163px;
-    padding-right: 600px;
+    max-width: 546px;
+    margin-left: 163px;
+    margin-right: auto;
   }
 }
