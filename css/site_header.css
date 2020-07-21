@@ -1,3 +1,8 @@
+.site_header__heading {
+  margin: 0;
+  padding-top: 40px;
+}
+
 svg {
   width: 120px;
   height: 60px;
@@ -7,5 +12,8 @@ svg {
   svg {
     width: 59px;
     height: 30px;
+  }
+  .site_header__heading {
+    padding-top: 63px;
   }
 }
