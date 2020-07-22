@@ -4,16 +4,18 @@
 }
 
 svg {
-  width: 120px;
-  height: 60px;
+  width: 186px;
+  height: 70px;
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1120px) {
   svg {
-    width: 59px;
-    height: 30px;
+    width: 92px;
+    height: 32px;
   }
   .site_header__heading {
-    padding-top: 63px;
+    padding-top: 50px;
+    max-width: 92px;
+    max-height: 32px;
   }
 }

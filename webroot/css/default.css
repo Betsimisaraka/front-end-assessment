@@ -11,16 +11,10 @@ body {
   margin-right: 20px;
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1120px) {
   body {
-    background-image: url(../img/mastheader.png);
-    background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: 134% 54%;
-    background-repeat: no-repeat;
     text-align: start;
-    max-width: 546px;
-    margin-left: 163px;
+    margin-left: auto;
     margin-right: auto;
   }
 }
