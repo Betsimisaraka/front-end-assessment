@@ -22,15 +22,26 @@
   margin: 0;
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1120px) {
+  .masthead {
+    max-width: 1114px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/mastheader.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: 400px 120%;
+  }
   .mashead_article {
-    padding-top: 133px;
+    padding-top: 100px;
     padding-bottom: 50px;
   }
   .mashead_article__heading {
     font-size: 36px;
     line-height: 48px;
     padding-bottom: 30px;
+    max-width: 546px;
   }
   .mashead_article__description {
     font-size: 18px;

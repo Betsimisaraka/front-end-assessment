@@ -1,6 +1,7 @@
-.download_buttons {
+.download_buttons__navigation {
   margin-left: 0;
-  padding: 0;
+  padding-bottom: 164px;
+  border: 0;
 }
 
 .download_buttons__image {
@@ -25,7 +26,7 @@
   display: none;
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1120px) {
   .download_buttons__container {
     display: flex;
     flex-direction: row;
