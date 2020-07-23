@@ -1,7 +1,5 @@
 .download_buttons__navigation {
-  margin-left: 0;
-  padding-bottom: 164px;
-  border: 0;
+  padding-bottom: 95px;
 }
 
 .download_buttons__image {
@@ -16,6 +14,7 @@
   justify-content: center;
   list-style: none;
   padding-inline-start: 0;
+  margin: 0;
 }
 
 .download_buttons__list--items {
@@ -33,6 +32,9 @@
     justify-content: flex-start;
     list-style: none;
     padding-inline-start: 0;
+    margin: 0;
+  }
+  .download_buttons__navigation {
     margin: 0;
   }
 }

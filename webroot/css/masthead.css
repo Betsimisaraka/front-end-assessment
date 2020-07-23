@@ -1,9 +1,13 @@
+.mashthead_container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .mashead_article {
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0;
 }
-
 .mashead_article__heading {
   font-weight: 700;
   font-size: 30px;
@@ -24,15 +28,19 @@
 
 @media (min-width: 1120px) {
   .masthead {
+    background-image: url(../img/mastheader.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: calc(546px - 46px) 80%;
+  }
+
+  .mashthead_container {
     max-width: 1114px;
     max-height: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../img/mastheader.png);
-    background-repeat: no-repeat;
-    background-size: 75%;
-    background-position: 400px 120%;
   }
+
   .mashead_article {
     padding-top: 100px;
     padding-bottom: 50px;

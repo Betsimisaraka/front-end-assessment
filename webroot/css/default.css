@@ -7,14 +7,10 @@ body {
   margin: 0;
   background-color: #F4F6F9;
   text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 @media (min-width: 1120px) {
   body {
     text-align: start;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
