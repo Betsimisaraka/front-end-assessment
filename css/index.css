@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("lato-bold"), local("Lato-Bold"), url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("lato-regular"), local("Lato-Regular"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"); }
+
 html {
   font-family: 'Lato', sans-serif;
   font-size: 1rem; }
@@ -27,51 +39,6 @@ svg {
     padding-top: 61px;
     max-width: 92px;
     max-height: 32px; } }
-
-.download_buttons__navigation {
-  padding-bottom: 95px; }
-
-.download_buttons__image {
-  width: 145.69px;
-  height: 44px; }
-
-.download_buttons__container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-  padding-inline-start: 0;
-  margin: 0; }
-
-.download_buttons__list--items {
-  margin-right: 28.61px; }
-
-.download_buttons__text {
-  display: none; }
-
-@media (min-width: 1120px) {
-  .download_buttons__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    list-style: none;
-    padding-inline-start: 0;
-    margin: 0; }
-  .download_buttons__navigation {
-    margin: 0; } }
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Lato Bold"), local("lato-bold"), local("Lato-Bold"), url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"); }
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Lato Regular"), local("lato-regular"), local("Lato-Regular"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"); }
 
 .mashthead_container {
   margin-left: 20px;
@@ -121,3 +88,36 @@ svg {
     font-size: 18px;
     line-height: 26px;
     max-width: 453px; } }
+
+.download_buttons__navigation {
+  padding-bottom: 95px; }
+
+.download_buttons__image {
+  width: 145.69px;
+  height: 44px; }
+
+.download_buttons__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0; }
+
+.download_buttons__list--items {
+  margin-right: 28.61px; }
+
+.download_buttons__text {
+  display: none; }
+
+@media (min-width: 1120px) {
+  .download_buttons__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 0; }
+  .download_buttons__navigation {
+    margin: 0; } }
