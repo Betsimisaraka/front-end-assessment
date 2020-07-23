@@ -1,5 +1,123 @@
-@import "default.css";
-@import "site_header.css";
-@import "button.css";
-@import "font.css";
-@import "masthead.css";
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem; }
+
+body {
+  margin: 0;
+  background-color: #F4F6F9;
+  text-align: center; }
+
+@media (min-width: 1120px) {
+  body {
+    text-align: start; } }
+
+.site_header__heading {
+  margin: 0;
+  padding-top: 30px; }
+
+svg {
+  width: 186px;
+  height: 70px; }
+
+@media (min-width: 1120px) {
+  svg {
+    width: 92px;
+    height: 32px; }
+  .site_header__heading {
+    padding-top: 61px;
+    max-width: 92px;
+    max-height: 32px; } }
+
+.download_buttons__navigation {
+  padding-bottom: 95px; }
+
+.download_buttons__image {
+  width: 145.69px;
+  height: 44px; }
+
+.download_buttons__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0; }
+
+.download_buttons__list--items {
+  margin-right: 28.61px; }
+
+.download_buttons__text {
+  display: none; }
+
+@media (min-width: 1120px) {
+  .download_buttons__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 0; }
+  .download_buttons__navigation {
+    margin: 0; } }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("lato-bold"), local("Lato-Bold"), url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("lato-regular"), local("Lato-Regular"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"); }
+
+.mashthead_container {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.mashead_article {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0; }
+
+.mashead_article__heading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #333333;
+  padding-bottom: 33px;
+  margin: 0; }
+
+.mashead_article__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4F4F4F;
+  margin: 0; }
+
+@media (min-width: 1120px) {
+  .masthead {
+    background-image: url(../img/mastheader.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: calc(546px - 46px) 80%; }
+  .mashthead_container {
+    max-width: 1114px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  .mashead_article {
+    padding-top: 100px;
+    padding-bottom: 50px; }
+  .mashead_article__heading {
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 30px;
+    max-width: 546px; }
+  .mashead_article__description {
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 453px; } }
