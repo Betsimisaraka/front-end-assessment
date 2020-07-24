@@ -11,8 +11,8 @@
   src: local("Lato Regular"), local("lato-regular"), local("Lato-Regular"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"); }
 
 html {
-  font-family: 'Lato', sans-serif;
-  font-size: 1rem; }
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 16px; }
 
 body {
   margin: 0;
@@ -45,8 +45,8 @@ svg {
   margin-right: 20px; }
 
 .mashead_article {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: calc(30px + 20px);
+  padding-bottom: calc(30px + 20px);
   margin: 0; }
 
 .mashead_article__heading {
@@ -70,7 +70,7 @@ svg {
     background-image: url(../img/mastheader.png);
     background-repeat: no-repeat;
     background-size: 70%;
-    background-position: calc(546px - 46px) 80%; }
+    background-position: calc(546px - 46px) 119%; }
   .mashthead_container {
     max-width: 1114px;
     max-height: 100%;
@@ -90,7 +90,7 @@ svg {
     max-width: 453px; } }
 
 .download_buttons__navigation {
-  padding-bottom: 95px; }
+  padding-bottom: 59px; }
 
 .download_buttons__image {
   width: 145.69px;
@@ -106,7 +106,7 @@ svg {
   margin: 0; }
 
 .download_buttons__list--items {
-  margin-right: 28.61px; }
+  margin-right: 14.61px; }
 
 .download_buttons__text {
   display: none; }
@@ -120,4 +120,8 @@ svg {
     padding-inline-start: 0;
     margin: 0; }
   .download_buttons__navigation {
-    margin: 0; } }
+    margin: 0; }
+  .download_buttons__list--items {
+    margin-right: 35.9px; }
+  .download_buttons__navigation {
+    padding-bottom: 164px; } }

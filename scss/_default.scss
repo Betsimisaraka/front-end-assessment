@@ -1,11 +1,13 @@
+@import "variables";
+
 html {
-  font-family: 'Lato', sans-serif;
-  font-size: 1rem;
+  font-family: $font_stack;
+  font-size: $base_font_size;
 }
 
 body {
   margin: 0;
-  background-color: #F4F6F9;
+  background-color: $base_background;
   text-align: center;
 }
 

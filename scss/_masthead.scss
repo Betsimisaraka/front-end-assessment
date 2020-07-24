@@ -1,11 +1,15 @@
+//import
+@import "variables";
+
+
 .mashthead_container {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: $base_margin;
+  margin-right: $base_margin;
 }
 
 .mashead_article {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: calc(#{$base_padding} + #{$base_margin});
+  padding-bottom: calc(#{$base_padding} + #{$base_margin});
   margin: 0;
 }
 .mashead_article__heading {
@@ -13,16 +17,16 @@
   font-size: 30px;
   line-height: 40px;
   letter-spacing: 0.03em;
-  color: #333333;
+  color: $color_heading;
   padding-bottom: 33px;
   margin: 0;
 }
 
 .mashead_article__description {
   font-weight: 400;
-  font-size: 16px;
+  font-size: $base_font_size;
   line-height: 23px;
-  color: #4F4F4F;
+  color: $color_paragraph;
   margin: 0;
 }
 
@@ -31,7 +35,7 @@
     background-image: url(../img/mastheader.png);
     background-repeat: no-repeat;
     background-size: 70%;
-    background-position: calc(546px - 46px) 80%;
+    background-position: calc(546px - 46px) 119%;
   }
 
   .mashthead_container {
