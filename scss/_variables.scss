@@ -9,4 +9,15 @@ $font_fallback: Arial, Helvetica, sans-serif;
 $font_stack: $font_default, $font_fallback;
 
 $base_margin: 20px;
-$base_padding: 30px;
+$base_padding: 50px;
+
+$faux_column_width: 1114px;
+$desktop_min_width: $faux_column_width + 6px;
+
+@mixin nav-ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

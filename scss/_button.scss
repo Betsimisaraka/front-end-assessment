@@ -1,6 +1,9 @@
+@import "variables";
+
 .download_buttons__navigation {
   padding-bottom: 59px;
 }
+
 
 .download_buttons__image {
   width: 145.69px;
@@ -8,39 +11,29 @@
 }
 
 .download_buttons__container {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  list-style: none;
-  padding-inline-start: 0;
-  margin: 0;
-}
+  @include nav-ul;
 
-.download_buttons__list--items {
-  margin-right: 14.61px;
+  li + li {
+    margin-left: 28.61px;
+  }
 }
 
 .download_buttons__text {
   display: none;
 }
 
-@media (min-width: 1120px) {
+@media (min-width: $desktop_min_width) {
   .download_buttons__container {
-    display: flex;
-    flex-direction: row;
     justify-content: flex-start;
-    list-style: none;
-    padding-inline-start: 0;
-    margin: 0;
+    @include nav-ul;
+    li + li {
+      margin-right: 35.9px;
+    }
   }
   .download_buttons__navigation {
     margin: 0;
-  }
-  .download_buttons__list--items {
-    margin-right: 35.9px;
-  }
-  .download_buttons__navigation {
     padding-bottom: 164px;
   }
 }
