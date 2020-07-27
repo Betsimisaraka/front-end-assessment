@@ -23,7 +23,7 @@ body {
   body {
     text-align: start; } }
 
-.site_header__heading {
+.mashthead__heading {
   margin: 0;
   padding-top: 30px; }
 
@@ -35,7 +35,7 @@ svg {
   svg {
     width: 92px;
     height: 32px; }
-  .site_header__heading {
+  .mashthead__heading {
     padding-top: 61px;
     max-width: 92px;
     max-height: 32px; } }
@@ -45,8 +45,8 @@ svg {
   margin-right: 20px; }
 
 .mashead_article {
-  padding-top: calc(30px + 20px);
-  padding-bottom: calc(30px + 20px);
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin: 0; }
 
 .mashead_article__heading {
@@ -55,7 +55,7 @@ svg {
   line-height: 40px;
   letter-spacing: 0.03em;
   color: #333333;
-  padding-bottom: 33px;
+  padding-bottom: calc(50px - 17px);
   margin: 0; }
 
 .mashead_article__description {
@@ -70,14 +70,14 @@ svg {
     background-image: url(../img/mastheader.png);
     background-repeat: no-repeat;
     background-size: 70%;
-    background-position: calc(546px - 46px) 119%; }
+    background-position: calc(546px - 5px) 100%; }
   .mashthead_container {
     max-width: 1114px;
     max-height: 100%;
     margin-left: auto;
     margin-right: auto; }
   .mashead_article {
-    padding-top: 100px;
+    padding-top: 130px;
     padding-bottom: 50px; }
   .mashead_article__heading {
     font-size: 36px;
@@ -97,31 +97,29 @@ svg {
   height: 44px; }
 
 .download_buttons__container {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
+  display: flex;
+  flex-direction: row;
   list-style: none;
-  padding-inline-start: 0;
-  margin: 0; }
-
-.download_buttons__list--items {
-  margin-right: 14.61px; }
+  margin: 0;
+  padding: 0; }
+  .download_buttons__container li + li {
+    margin-left: 28.61px; }
 
 .download_buttons__text {
   display: none; }
 
 @media (min-width: 1120px) {
   .download_buttons__container {
+    justify-content: flex-start;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     list-style: none;
-    padding-inline-start: 0;
-    margin: 0; }
+    margin: 0;
+    padding: 0; }
+    .download_buttons__container li + li {
+      margin-right: 35.9px; }
   .download_buttons__navigation {
-    margin: 0; }
-  .download_buttons__list--items {
-    margin-right: 35.9px; }
-  .download_buttons__navigation {
+    margin: 0;
     padding-bottom: 164px; } }
