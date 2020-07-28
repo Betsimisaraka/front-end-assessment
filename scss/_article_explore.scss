@@ -1,0 +1,40 @@
+@import "variables";
+
+.link {
+  @extend %a11y;
+}
+
+.link_start {
+  text-transform: uppercase;
+}
+
+.explore_heading {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: $color_heading;
+  margin: 0;
+  padding-bottom: 27px;
+}
+
+.esplore_category {
+  padding-top: 33px;
+  padding-bottom: 27px;
+  margin: 0;
+}
+
+.explore_description {
+  @extend %a11y1;
+}
+
+.explore {
+  background-color: white;
+  .explore_description + .explore_description {
+    margin-block-start: 32px;
+  }
+}
+
+.explore_learn_more {
+  margin: 0;
+  padding-top: 25px;
+}

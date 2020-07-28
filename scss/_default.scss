@@ -11,6 +11,11 @@ body {
   text-align: center;
 }
 
+.container {
+  margin-left: $base_margin;
+  margin-right: $base_margin;
+}
+
 @media (min-width: $desktop_min_width) {
   article {
     text-align: start;
