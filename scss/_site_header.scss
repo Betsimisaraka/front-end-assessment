@@ -3,19 +3,19 @@
   padding-top: 30px;
 }
 
-svg {
+.logo_sports img {
   width: 186px;
   height: 70px;
 }
 
 @media (min-width: $desktop_min_width) {
-  svg {
+  .logo_sports img {
     width: 92px;
     height: 32px;
+    position: absolute;
+    left: calc(50% - 557px);
   }
   .mashthead__heading {
     padding-top: 61px;
-    max-width: 92px;
-    max-height: 32px;
   }
 }

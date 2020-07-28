@@ -20,25 +20,25 @@ body {
   text-align: center; }
 
 @media (min-width: 1120px) {
-  body {
+  article {
     text-align: start; } }
 
 .mashthead__heading {
   margin: 0;
   padding-top: 30px; }
 
-svg {
+.logo_sports img {
   width: 186px;
   height: 70px; }
 
 @media (min-width: 1120px) {
-  svg {
+  .logo_sports img {
     width: 92px;
-    height: 32px; }
+    height: 32px;
+    position: absolute;
+    left: calc(50% - 557px); }
   .mashthead__heading {
-    padding-top: 61px;
-    max-width: 92px;
-    max-height: 32px; } }
+    padding-top: 61px; } }
 
 .mashthead_container {
   margin-left: 20px;
@@ -77,13 +77,13 @@ svg {
     margin-left: auto;
     margin-right: auto; }
   .mashead_article {
-    padding-top: 130px;
-    padding-bottom: 50px; }
+    padding-top: 164px;
+    padding-bottom: 50px;
+    max-width: 546px; }
   .mashead_article__heading {
     font-size: 36px;
     line-height: 48px;
-    padding-bottom: 30px;
-    max-width: 546px; }
+    padding-bottom: 30px; }
   .mashead_article__description {
     font-size: 18px;
     line-height: 26px;
