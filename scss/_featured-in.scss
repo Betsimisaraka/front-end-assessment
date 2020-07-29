@@ -1,0 +1,77 @@
+@import "variables";
+
+.feature_in {
+  padding-block-start: 57px;
+  padding-block-end: 71px;
+}
+
+.feature_in__heading {
+  padding-block-end: 43px;
+}
+
+.feature_in__list--container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.feature_in ul > li:first-child a {
+  display: block;
+  text-indent: -9999px;
+  background-image: url(../img/logo_nbc_sports.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  grid-row: 1 / 4;
+}
+
+.feature_in ul > li:nth-of-type(2) a {
+  display: block;
+  text-indent: -9999px;
+  background-image: url(../img/logo_nbc_sports.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  grid-row: 4 / 7;
+}
+
+.feature_in ul > li:nth-of-type(3) a {
+  display: block;
+  text-indent: -9999px;
+  background-image: url(../img/logo_nbc_sports.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  grid-column: 2 / 4;
+}
+
+.feature_in ul > li:nth-child(4) a {
+  display: block;
+  text-indent: -9999px;
+  background-image: url(../img/logo_nbc_sports.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  grid-row: 4 / 6;
+}
+
+.feature_in ul > li:nth-child(5) a {
+  display: block;
+  text-indent: -9999px;
+  background-image: url(../img/logo_nbc_sports.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  grid-row: 6 / 7;
+}
+
+.feature_in ul > li:last-of-type a {
+  display: block;
+  text-indent: -9999px;
+  background-image: url(../img/logo_nbc_sports.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  grid-column: 3 / 6;
+}

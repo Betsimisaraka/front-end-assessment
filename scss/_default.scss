@@ -11,8 +11,20 @@ body {
   text-align: center;
 }
 
+.heading {
+  @extend %heading;
+}
+
 .container {
   @include base-margin;
+}
+
+nav > ul, ul {
+  @include ul;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (min-width: $desktop_min_width) {

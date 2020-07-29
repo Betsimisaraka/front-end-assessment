@@ -1,9 +1,0 @@
-@import "variables";
-
-.features_list__container {
-  @include ul;
-}
-
-.features_heading {
-  @extend %heading;
-}

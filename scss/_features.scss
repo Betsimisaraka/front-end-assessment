@@ -1,0 +1,16 @@
+@import "variables";
+
+.features {
+  padding-block-start: 42px;
+  padding-block-end: 58px;
+}
+
+.features_heading {
+  padding-block-end: 52px;
+}
+
+.features_list__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 50px;
+}
