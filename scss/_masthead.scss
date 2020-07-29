@@ -23,7 +23,7 @@
 }
 
 .mashead_article__description {
-  @extend %a11y1;
+  @extend %main-paragraph;
 }
 
 @media (min-width: $desktop_min_width) {

@@ -1,7 +1,7 @@
 @import "variables";
 
 .link {
-  @extend %a11y;
+  @extend %link-anchor;
 }
 
 .link_start {
@@ -9,11 +9,7 @@
 }
 
 .explore_heading {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 37px;
-  color: $color_heading;
-  margin: 0;
+  @include h2;
   padding-bottom: 27px;
 }
 
@@ -24,7 +20,7 @@
 }
 
 .explore_description {
-  @extend %a11y1;
+  @extend %main-paragraph;
 }
 
 .explore {

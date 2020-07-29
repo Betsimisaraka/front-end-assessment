@@ -12,8 +12,7 @@ body {
 }
 
 .container {
-  margin-left: $base_margin;
-  margin-right: $base_margin;
+  @include base-margin;
 }
 
 @media (min-width: $desktop_min_width) {

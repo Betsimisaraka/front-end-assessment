@@ -1,0 +1,11 @@
+.features_heading {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  margin: 0; }
+
+.features_list__container {
+  list-style: none;
+  margin: 0;
+  padding: 0; }

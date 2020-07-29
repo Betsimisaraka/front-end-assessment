@@ -1,0 +1,54 @@
+@import "variable";
+
+@mixin base-margin {
+  margin-inline-start: $base_margin;
+  margin-inline-end: $base_margin;
+}
+
+@mixin nav-ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: $color_heading;
+  margin: 0;
+}
+
+%heading {
+  @include h2;
+}
+
+@mixin ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin anchor {
+  color: $anchor_color;
+  text-decoration: none;
+  line-height: $base_line_height;
+}
+
+%link-anchor {
+  @include anchor;
+}
+
+@mixin paragraph {
+  font-weight: 400;
+  font-size: $base_font_size;
+  line-height: 23px;
+  color: $color_paragraph;
+  margin: 0;
+}
+
+%main-paragraph {
+  @include paragraph;
+}
