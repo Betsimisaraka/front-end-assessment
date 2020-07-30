@@ -17,6 +17,12 @@
   color: #4F4F4F;
   margin: 0; }
 
+.feature_in__list--container li, .footer_logo {
+  display: block;
+  text-indent: -999px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -47,6 +53,12 @@
   line-height: 23px;
   color: #4F4F4F;
   margin: 0; }
+
+.feature_in__list--container li, .footer_logo {
+  display: block;
+  text-indent: -999px;
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 html {
   font-family: "Lato", Arial, Helvetica, sans-serif;
@@ -92,6 +104,12 @@ a {
   color: #4F4F4F;
   margin: 0; }
 
+.feature_in__list--container li, .footer_logo {
+  display: block;
+  text-indent: -999px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
 .mashthead__heading {
   margin: 0;
   padding-top: 30px; }
@@ -127,6 +145,12 @@ a {
   line-height: 23px;
   color: #4F4F4F;
   margin: 0; }
+
+.feature_in__list--container li, .footer_logo {
+  display: block;
+  text-indent: -999px;
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .mashthead_container {
   margin-left: 20px;
@@ -189,6 +213,12 @@ a {
   color: #4F4F4F;
   margin: 0; }
 
+.feature_in__list--container li, .footer_logo {
+  display: block;
+  text-indent: -999px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
 .download_buttons__navigation {
   padding-bottom: 59px; }
 
@@ -243,6 +273,12 @@ a {
   color: #4F4F4F;
   margin: 0; }
 
+.feature_in__list--container li, .footer_logo {
+  display: block;
+  text-indent: -999px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
 .link_start {
   text-transform: uppercase; }
 
@@ -282,6 +318,12 @@ a {
   color: #4F4F4F;
   margin: 0; }
 
+.feature_in__list--container li, .footer_logo {
+  display: block;
+  text-indent: -999px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
 .features {
   padding-block-start: 42px;
   padding-block-end: 58px; }
@@ -313,6 +355,12 @@ a {
   color: #4F4F4F;
   margin: 0; }
 
+.feature_in__list--container li, .footer_logo {
+  display: block;
+  text-indent: -999px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
 .feature_in {
   padding-block-start: 57px;
   padding-block-end: 71px; }
@@ -320,65 +368,29 @@ a {
 .feature_in__heading {
   padding-block-end: 43px; }
 
-.feature_in__list--container {
-  display: grid;
-  grid-template-areas: "li1 li1 li1 li2 li2 li2" "li3 li3 li4 li4 li5 li5" "blank li6 li6 li6 li6 blank";
-  column-gap: 20px;
-  row-gap: 20px; }
-
-.feature_in ul > li:first-child a {
-  display: block;
-  text-indent: -9999px;
+.feature_in__list--container li:first-child {
   background-image: url(../img/logo_sports_tv.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li1; }
+  background-position: left; }
 
-.feature_in ul > li:nth-of-type(2) a {
-  display: block;
-  text-indent: -9999px;
+.feature_in__list--container li:nth-of-type(2) {
   background-image: url(../img/logo_sports_channel.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li2; }
+  background-position: right; }
 
-.feature_in ul > li:nth-of-type(3) a {
-  display: block;
-  text-indent: -9999px;
+.feature_in__list--container li:nth-of-type(3) {
   background-image: url(../img/logo_nbc_sports.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li3; }
+  background-position: left; }
 
-.feature_in ul > li:nth-child(4) a {
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/logo_designer_news.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li4; }
-
-.feature_in ul > li:nth-child(5) a {
-  display: block;
-  text-indent: -9999px;
+.feature_in__list--container li:nth-of-type(4) {
   background-image: url(../img/logo_designer_technology.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li5; }
+  background-position: center; }
 
-.feature_in ul > li:last-of-type a {
-  display: block;
-  text-indent: -9999px;
+.feature_in__list--container li:nth-of-type(5) {
+  background-image: url(../img/logo_designer_news.svg);
+  background-position: right; }
+
+.feature_in__list--container li:last-child {
   background-image: url(../img/logo_sky_sports.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li6; }
+  background-position: center; }
 
 .heading {
   font-weight: 700;
@@ -399,8 +411,24 @@ a {
   color: #4F4F4F;
   margin: 0; }
 
+.feature_in__list--container li, .footer_logo {
+  display: block;
+  text-indent: -999px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
 .footer {
-  text-align: start; }
+  text-align: start;
+  padding-block-start: calc(50px - 9px);
+  padding-block-end: calc(50px - 5px);
+  background-color: #00ADEE; }
+
+.footer_logo {
+  background-image: url(../img/logo_sports_white.svg);
+  margin: 0;
+  width: 84px;
+  height: 32px;
+  padding-bottom: 11px; }
 
 .footer_navigation {
   display: grid;
@@ -408,11 +436,32 @@ a {
   row-gap: 34px; }
 
 .social_container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 17px; }
+  display: flex;
+  flex-direction: row; }
+  .social_container > li + li {
+    margin-left: 17px; }
+
+.social_container li {
+  display: block;
+  text-indent: -999px;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.social_container li:first-child {
+  background-image: url(../img/icon_twitter.svg); }
+
+.social_container li:nth-child(2) {
+  background-image: url(../img/icon_facebook.svg); }
+
+.social_container li:last-of-type {
+  background-image: url(../img/icon_instagram.svg); }
 
 .footer_container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 19px; }
+  column-gap: 10px; }
+
+.footer_container a {
+  color: #FFFFFF; }

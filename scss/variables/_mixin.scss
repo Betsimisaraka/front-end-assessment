@@ -52,3 +52,18 @@
 %main-paragraph {
   @include paragraph;
 }
+
+@mixin text_indent {
+  display: block;
+  text-indent: -999px;
+}
+
+@mixin background_size {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+%text_background {
+  @include text_indent;
+  @include background_size;
+}

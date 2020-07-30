@@ -9,71 +9,34 @@
   padding-block-end: 43px;
 }
 
+.feature_in__list--container li {
+  @extend %text_background;
+}
+
 .feature_in__list--container {
-  display: grid;
-  grid-template-areas: "li1 li1 li1 li2 li2 li2"
-                    "li3 li3 li4 li4 li5 li5"
-                    "blank li6 li6 li6 li6 blank";
-  column-gap: 20px;
-  row-gap: 20px;
-}
+  & li:first-child {
+    background-image: url(../img/logo_sports_tv.svg);
+    background-position: left;
+  }
+  & li:nth-of-type(2) {
+    background-image: url(../img/logo_sports_channel.svg);
+    background-position: right;
 
-.feature_in ul > li:first-child a {
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/logo_sports_tv.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li1;
-}
-
-.feature_in ul > li:nth-of-type(2) a {
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/logo_sports_channel.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li2;
-}
-
-.feature_in ul > li:nth-of-type(3) a {
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/logo_nbc_sports.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li3;
-}
-
-.feature_in ul > li:nth-child(4) a {
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/logo_designer_news.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li4;
-}
-
-.feature_in ul > li:nth-child(5) a {
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/logo_designer_technology.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li5;
-}
-
-.feature_in ul > li:last-of-type a {
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/logo_sky_sports.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  grid-area: li6;
+  }
+  & li:nth-of-type(3) {
+    background-image: url(../img/logo_nbc_sports.svg);
+    background-position: left;
+  }
+  & li:nth-of-type(4) {
+    background-image: url(../img/logo_designer_technology.svg);
+    background-position: center;
+  }
+  & li:nth-of-type(5) {
+    background-image: url(../img/logo_designer_news.svg);
+    background-position: right;
+  }
+  & li:last-child {
+    background-image: url(../img/logo_sky_sports.svg);
+    background-position: center;
+  }
 }
