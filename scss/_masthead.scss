@@ -22,10 +22,6 @@
   margin: 0;
 }
 
-.mashead_article__description {
-  @extend %main-paragraph;
-}
-
 @media (min-width: $desktop_min_width) {
   .masthead {
     background-image: url(../img/mastheader.png);

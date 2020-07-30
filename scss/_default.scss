@@ -15,6 +15,10 @@ body {
   @extend %heading;
 }
 
+.paragraph {
+  @extend %main-paragraph;
+}
+
 .container {
   @include base-margin;
 }
