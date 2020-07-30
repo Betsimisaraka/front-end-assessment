@@ -10,7 +10,11 @@
 }
 
 .features_list__container {
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & li + li {
+    margin-top: 50px;
+  }
 }

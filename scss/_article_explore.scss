@@ -1,5 +1,15 @@
 @import "variables";
 
+.explore {
+  padding-bottom: 652px;
+  background-image: url(../img/bg_friendly_user_interface.png);
+
+  background-position-x: 50%;
+  background-position-y: calc(100% + 652px);
+  background-repeat: no-repeat;
+  background-size: 2000px;
+}
+
 .link {
   @extend %link-anchor;
 }
@@ -28,4 +38,5 @@
 .explore_learn_more {
   margin: 0;
   padding-top: 25px;
+  padding-bottom: 42px;
 }
