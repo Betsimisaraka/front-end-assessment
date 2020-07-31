@@ -19,7 +19,7 @@
 
 .footer_logo {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -56,7 +56,7 @@
 
 .footer_logo {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -83,7 +83,12 @@ a {
 
 @media (min-width: 1120px) {
   article {
-    text-align: start; } }
+    text-align: start; }
+  .container {
+    max-width: 1114px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto; } }
 
 .heading {
   font-weight: 700;
@@ -106,7 +111,7 @@ a {
 
 .footer_logo {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -148,7 +153,7 @@ a {
 
 .footer_logo {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -215,7 +220,7 @@ a {
 
 .footer_logo {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -275,7 +280,7 @@ a {
 
 .footer_logo {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -329,7 +334,7 @@ a {
 
 .footer_logo {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -369,7 +374,7 @@ a {
 
 .footer_logo {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -390,7 +395,7 @@ a {
 
 .feature_in__navigation > .feature_in__list--container1 li {
   display: block;
-  text-indent: -999px; }
+  text-indent: -9999px; }
 
 .feature_in__list--container1 {
   display: flex;
@@ -418,7 +423,7 @@ a {
 
 .feature_in__navigation > .feature_in__list--container2 li {
   display: block;
-  text-indent: -999px; }
+  text-indent: -9999px; }
 
 .feature_in__list--container2 li:first-child {
   background-image: url(../img/logo_nbc_sports.svg);
@@ -437,7 +442,7 @@ a {
 
 .sky_sports {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   background-image: url(../img/logo_sky_sports.svg);
   width: 210px;
   height: 34px;
@@ -464,7 +469,7 @@ a {
 
 .footer_logo {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -495,7 +500,7 @@ a {
 
 .social_container li {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
   width: 25px;
   height: 25px;
   background-size: contain;
@@ -511,9 +516,31 @@ a {
   background-image: url(../img/icon_instagram.svg); }
 
 .footer_container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 10px; }
+  display: flex;
+  flex-direction: row; }
+  .footer_container li + li {
+    margin-left: 17px; }
 
 .footer_container a {
   color: #FFFFFF; }
+
+@media (min-width: 1120px) {
+  .footer_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch; }
+  .footer_navigation {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .footer_navigation ul + ul {
+      margin-top: 0; }
+  .footer_container {
+    order: 1;
+    align-self: center; }
+  .social_container {
+    order: 2;
+    margin-inline-start: 261px; } }
