@@ -314,6 +314,22 @@ a {
   padding-top: 25px;
   padding-bottom: 42px; }
 
+@media (min-width: 1120px) {
+  .esplore_category {
+    padding-top: 217px; }
+  .explore_div__container {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    float: left; }
+  .explore_learn_more {
+    padding-top: 54px; }
+  .explore {
+    background-image: url(../img/bg_friendly_user_interface.png);
+    background-position: calc(50% + 240px) 58%; } }
+
 .heading {
   font-weight: 700;
   font-size: 28px;
@@ -411,15 +427,15 @@ a {
 .feature_in__heading {
   padding-block-end: 43px; }
 
-.feature_in__navigation {
+.feature_in__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .feature_in__navigation ul + ul {
+  .feature_in__container ul + ul {
     margin-top: 33px; }
 
-.feature_in__navigation > .feature_in__list--container1 li {
+.feature_in__list--container1 li {
   display: block;
   text-indent: -9999px; }
 
@@ -438,8 +454,14 @@ a {
 
 .feature_in__list--container1 li:last-child {
   background-image: url(../img/logo_sports_channel.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 102px;
   height: 32px; }
+
+.feature_in__list--container2 li {
+  display: block;
+  text-indent: -9999px; }
 
 .feature_in__list--container2 {
   display: flex;
@@ -473,6 +495,19 @@ a {
   width: 210px;
   height: 34px;
   background-position: center; }
+
+@media (min-width: 1120px) {
+  .feature_in__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start; }
+    .feature_in__container ul + ul {
+      margin-top: 0px; }
+  .feature_in__heading {
+    text-align: center; }
+  .sky_sports {
+    margin: 0; } }
 
 .heading {
   font-weight: 700;

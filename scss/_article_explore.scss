@@ -40,3 +40,25 @@
   padding-top: 25px;
   padding-bottom: 42px;
 }
+
+@media (min-width: $desktop_min_width) {
+  .esplore_category {
+    padding-top: 217px;
+  }
+
+  .explore_div__container {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    float: left;
+  }
+  .explore_learn_more {
+    padding-top: 54px;
+  }
+  .explore {
+  background-image: url(../img/bg_friendly_user_interface.png);
+  background-position: calc(50% + 240px) 58%;
+  }
+}
