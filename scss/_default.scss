@@ -35,4 +35,8 @@ a {
   article {
     text-align: start;
   }
+
+  .container {
+    @include containers;
+  }
 }

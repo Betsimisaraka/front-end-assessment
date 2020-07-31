@@ -5,6 +5,13 @@
   margin-inline-end: $base_margin;
 }
 
+@mixin containers {
+  max-width: $faux_column_width;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @mixin nav-ul {
   display: flex;
   flex-direction: row;
@@ -55,7 +62,7 @@
 
 @mixin text_indent {
   display: block;
-  text-indent: -999px;
+  text-indent: -9999px;
 }
 
 @mixin background_size {
