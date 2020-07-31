@@ -18,3 +18,39 @@
     margin-top: 50px;
   }
 }
+
+@media (min-width: $desktop_min_width) {
+  .features_list__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 90px;
+    row-gap: 45px;
+    & li + li {
+      margin-top: 0;
+    }
+  }
+  .features {
+    padding-block-start: 76px;
+    padding-block-end: 67px;
+    color: white;
+     background-color: $footer_background;
+     & ul li .features_paragraph {
+      color: white;
+      margin: 0;
+    }
+    & .features_heading {
+      color: white;
+      text-align: center;
+    }
+    & ul li p::before {
+      content: "●";
+      color: white;
+    }
+  }
+
+
+
+  .features_list__container li svg path {
+    fill: white;
+  }
+}

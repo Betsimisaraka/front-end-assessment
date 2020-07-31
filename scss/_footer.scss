@@ -67,16 +67,17 @@
 }
 
 @media (min-width: $desktop_min_width) {
+  .footer {
+    padding-block-start:  calc(#{$base_padding} - 2px);
+    padding-block-end: calc(#{$base_padding} - 3px);
+  }
+
   .footer_div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
   }
-
-  // .footer_logo {
-  //   order: 1;
-  // }
 
   .footer_navigation {
     order: 2;
