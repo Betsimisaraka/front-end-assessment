@@ -1,6 +1,6 @@
 @import "variables";
 
-.explore {
+.interface {
   padding-bottom: 652px;
   background-image: url(../img/bg_friendly_user_interface.png);
 
@@ -18,47 +18,43 @@
   text-transform: uppercase;
 }
 
-.explore_heading {
+.interface_heading {
   padding-bottom: 27px;
 }
 
-.esplore_category {
+.interface_category {
   padding-top: 33px;
   padding-bottom: 27px;
   margin: 0;
 }
 
-.explore {
+.interface {
   background-color: white;
-  .explore_description + .explore_description {
+  .interface_description + .interface_description {
     margin-block-start: 32px;
   }
 }
 
-.explore_learn_more {
+.interface_learn_more {
   margin: 0;
   padding-top: 25px;
-  padding-bottom: 42px;
+  padding-bottom: 113.33px;
 }
 
 @media (min-width: $desktop_min_width) {
-  .esplore_category {
+  .interface_category {
     padding-top: 217px;
   }
 
-  .explore_div__container {
+  .interface_div__container {
     max-width: 480px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    float: left;
   }
-  .explore_learn_more {
+  .interface_learn_more {
     padding-top: 54px;
+    padding-bottom: 171px;
   }
-  .explore {
-  background-image: url(../img/bg_friendly_user_interface.png);
-  background-position: calc(50% + 240px) 58%;
+  .interface {
+    padding-bottom: 0px;
+    background-position: calc(50% + 240px) 50%;
   }
 }
