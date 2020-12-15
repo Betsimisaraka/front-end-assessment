@@ -1,15 +1,50 @@
 # Front-end assessment
 
-## Install the node-sass
+<div align="center">
+  <h3>
+    <a href="https://github.com/Betsimisaraka/front-end-assessment">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://betsimisaraka.github.io/front-end-assessment/">
+      Solution
+    </a>
+  </h3>
+</div>
 
-`npm i`
+In this project we built a website that is about sport. It is for those who are interested in sports. This application is made by html and css/sass
 
-## Run css
+-   My demo
 
-`npm run css:watch`
+You can see my demo by clicking this github link with the username [Betsimisaraka](https://github.com/Betsimisaraka/front-end-assessment)
+
+- My experience
+
+My experience during this project was the way I positioned the background images in each part. Especialy with the site header and the first section. I was struggle to position them at first.
+
+-   What have you learned/improved?
+
+Positioning the background in the right position is still new for me and I learned that in this project. Also using flex basis property with display flex layout I learned that as well.
+
+### Built With
+
+-   [Html](https://html.org/)
+-   [Css/Sass](https://css.org)
 
 
-A mockup-to-website example to be used as an assessment
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Betsimisaraka/front-end-assessment
+
+# Install dependencies
+$ npm install node-sass
+$ npm i
+
+# Run css
+$ npm run css:watch
+```
 
 ## Getting started
 
@@ -41,44 +76,6 @@ So too with downloading the fonts. Have a look in the `source-material/fonts` fo
 
 The `webroot` folder is where all your work should go. You'll notice there's already an `index.html` and the supporting folders inside the `webroot`.
 
-## Requirements
+## Contact
 
-Your work on the site header, and masthead will be the primary focus of this assessment.
-i.e. you must first deliver these two elements, so that they can be marked.
-
-The rest of the components of the site, we'll do later as an exercise.
-
-### Marking
-
-Your work will be marked on the following criteria:
-
-- Git
-  - Commits, commit messages, and their frequency (how often you commit)
-- Code
-  - All code should be:
-    - well-formatted and clean
-    - easy to understand
-    - self-documenting
-    - using comments when needed
-    - named well (e.g. class names should be relevant)
-  - HTML
-    - Use of HTML elements
-    - Accessible
-  - CSS
-    - Well-structured and easy to find relevant files
-    - Good / consistent naming conventions (methodologies)
-    - Reliable and simple techniques used (e.g. Flex vs. Grid vs. Normal flow, etc)
-- Results
-  - Should work in both Firefox and Chrome
-  - Responsive, supporting mobile and desktop devices
-  - Be accessible (You should use accessibility techniques we've covered in our courses)
-  - Accurate as possible (Your end product should look as similar to the designs as possible
-
-### Bonus marks
-
-Bonus points will be awarded for code that uses:
-
-- a new technique you had to research while doing this assessment
-- elegant (thoughtful) solutions to complex problems
-- going the extra mile (putting in more effort to push for high quality or delight)
-
+-   GitHub [Betsimisaraka](https://{github.com/Betsimisaraka})
