@@ -12,7 +12,9 @@
   </h3>
 </div>
 
-In this project we built a website that is about sport. It is for those who are interested in sports. This application is made by html and css/sass
+In this project we built a website that is about sport. It is for those who are interested in sports. This application is made by html and `css/sass`
+
+![My sports app](./webroot/img/sports-app.webp)
 
 ## 1- My demo
 
